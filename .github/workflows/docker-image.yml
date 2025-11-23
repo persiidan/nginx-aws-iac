@@ -6,12 +6,13 @@ on:
       - main
     paths:
       - Dockerfile
+      - teraform/modules/Nginx/user_data.sh
 
   workflow_dispatch: {}
 
 env:
   DOCKERHUB_USERNAME: idanpersi
-  IMAGE_AND_TAG: moveo-nginx:latest
+  IMAGE_AND_TAG: nginx-port:latest
   
 jobs:
   docker:

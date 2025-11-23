@@ -1,6 +1,6 @@
 module "vpc" {
   source                           = "terraform-aws-modules/vpc/aws"
-  name                             = "moveo-vpc"
+  name                             = "nginx-vpc"
   cidr                             = "10.0.0.0/16"
   azs                              = ["${var.region}a", "${var.region}b"]
   private_subnets                  = ["10.0.1.0/24"]
