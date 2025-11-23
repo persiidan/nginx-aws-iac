@@ -25,7 +25,7 @@ The ALB is protected by **AWS WAF** with the following rules:
 ---
 
 ## Important Notices
--  The project uses a Docker image from Docker Hub (idanpersi/moveo-nginx) - very simple image, I included the Dockerfile
+-  The project uses a Docker image from Docker Hub (idanpersi/nginx-port) - very simple image, I included the Dockerfile
 -  For VPC and networking purposes I used the existing module from (http://github.com/terraform-aws-modules/terraform-aws-vpc)
 -  **Terraform state is stored in S3**: The backend bucket `moveoterrabe` in il-central-1 stores the Terraform state for team collaboration and state locking
 -  Updating the Dockerfile will trigger docker-image workflow 
@@ -71,8 +71,8 @@ The ALB is protected by **AWS WAF** with the following rules:
 
 ## 1 — Clone the code
 ```
-git clone https://github.com/persiidan/Moveo_Assignment.git
-cd Moveo_Assignment
+git clone https://github.com/persiidan/nginx-aws-iac.git
+cd nginx-aws-iac
 ```
 ## 2 — Initialise Terraform
 ```
