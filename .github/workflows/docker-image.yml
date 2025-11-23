@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - Dockerfile
-      - teraform/modules/Nginx/user_data.sh
+      - terraform/modules/Nginx/user_data.sh
 
   workflow_dispatch: {}
 
