@@ -1,4 +1,4 @@
-# 🚀 nginx-vpc — Terraform AWS Infrastructure
+# nginx-aws-iac — Terraform AWS Infrastructure
 
 ## Overview
 This project provisions an AWS environment (region **il-central-1**) with:
